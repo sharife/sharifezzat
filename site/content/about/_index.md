@@ -1,10 +1,10 @@
 ---
 title: Biography
 subtitle: Sharif Ezzat is an award-winning science communicator and creative professional whose work has been featured by art and design organizations around the world. He is passionate about using design as a force for good and creating systems that contribute to collective knowledge.
-image: 
+image: /img/about-header.jpg
 intro:
   blurbs:
-    - imageUrl: "/img/about-header.jpg"
+    - imageUrl: "/img/binary_3.jpg"
       text: >
         The son of an engineer and an artist, Sharif learned to experiment with materials and forms of expression at an early age. While in college, he joined the international arts group *Renaissance 2001*, started by Tokyo-based painter Seiji Ueoka and Finnish digital artist Aleksi Aaltonen, and helped produce several international exhibitions connecting traditional and digital art with live audience participation in Japan, Europe, and the US.
     - imageUrl: "/img/about-yuri.jpg"
@@ -15,7 +15,7 @@ intro:
         Sharif's interactive prose poem collection *Like Stars in a Clear Night Sky* was included in the premiere collection from the Electronic Literature Association, and has been featured in museums and universities. He highlighted environmental themes in animated works such as *Plant Trees*, which was featured by the San Francisco International Film Festival, and *Design is a Signal of Intention*, used by Bill McDonough in his lectures on sustainability.
     - imageUrl: "/img/gene-making.jpg"
       text: >
-        Through these experiences, Sharif began to focus his work on science communication. As a member of Genentech’s digital communications team he led the redesign of the company’s complex intranet, which was recognized by the Nielsen Norman Group for excellence in design and usability. He also led the production of *Making Medicine*, an interactive documentary about the process of biotech research and development, and the animated YouTube series *Big Ideas*.
+        Through these experiences, Sharif began to focus his work on science communication. As a member of Genentech’s digital communications team he led the redesign of the company’s complex intranet, which was recognized by the Nielsen Norman Group for excellence in design and usability. He also led the production of *Making Medicine*, an interactive documentary about the process of biotech research and development, and the animated YouTube video series *Big Ideas*.
     - imageUrl: "/img/eterna.jpg"
       text: >
         In 2016 he helped launch *OpenTB*, a citizen science initiative in which players of the puzzle game EteRNA were recruited to design a new diagnostic tool for tuberculosis. The project, a collaboration between Stanford, MIT, and the online player community, pioneered the use of gaming to crowdsource the design of medicines. 

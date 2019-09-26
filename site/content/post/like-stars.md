@@ -1,6 +1,6 @@
 ---
 title: "Like Stars in a Clear Night Sky"
-date: 2016-12-17T15:04:10.000Z
+date: 2005-12-17T15:04:10.000Z
 description: A collection of prose poems, from parables to family stories. This piece was included in the premiere collection from the Electronic Literature Organization.
 image: /img/stars-01.jpg
 ---

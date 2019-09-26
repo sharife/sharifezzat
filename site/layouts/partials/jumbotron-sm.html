@@ -1,16 +1,21 @@
-<div class="bg-white pv4 pv5-l ph3 bg-center cover header-image-sm" style="background-image: url('{{.imageUrl}}');">
+<div class="bg-white pv4 pv5-l ph3 bg-center cover header-image-sm">
   <div class="mw7 center ph3 mt4">
     <div class="db mb3 relative">
-      <div class="mw6 relative bg-fix-primary mb3 intro1">
+      <div class="mw6 relative mb3 intro1">
         <h1 class="f2 f1-l b di lh-title mb3 black mw6">
           {{.title}}
         </h1>
       </div>
-      <div class="mw6 relative bg-fix-primary intro2">
-        {{ if .subtitle }}
-        <p class="f4 di lh-title mb3 black mw6">
-          {{.subtitle}}
-        </p>
+      <div class="flex-m mhn3-m">
+        <div class="w-50-m pr2 mb3 intro2">
+          {{ if .subtitle }}
+          <p class="f4 di lh-title mb4 black">
+            {{.subtitle}}
+          </p>
+          {{ end }}
+        </div>
+        {{ if .imageUrl }}
+        <div class="w-50-m"><img src="{{.imageUrl}}" /></div>
         {{ end }}
       </div>
     </div>
