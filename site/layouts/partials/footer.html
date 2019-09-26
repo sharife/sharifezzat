@@ -1,4 +1,4 @@
-<footer class="bg-black ph3 pv4 white">
+<!-- <footer class="bg-black ph3 pv4 white">
 
 	<div class="mw7 center pt3">
 
@@ -46,8 +46,62 @@
 		</div>
 	</div>
 
-</footer>
+</footer> -->
 
-{{ partial "svg" . }}
+<!-- {{ partial "svg" . }} -->
 
-<script src="/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">	
+	// JS Goes here - ES6 supported
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on("init", (user) => {
+    if (!user) {
+      window.netlifyIdentity.on("login", () => {
+        document.location.href = "/admin/";
+      });
+    }
+  });
+}
+
+function openSidenav() {
+  document.getElementById('mySidenav').style.width = "300px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+$(document).ready(function(){
+  $('.intro1').animate({'opacity':'1', 'margin-left': '0'},1500, 'easeOutExpo');
+  $('.intro2').delay(500).animate({'opacity':'1', 'margin-left': '0'},1000, 'easeOutExpo');
+  $('.intro-page').delay(250).animate({'opacity':'1'},700);
+  $('.intro-body').delay(1100).animate({'opacity':'1'},700);
+  $('.header-image').animate({'opacity':'1'},1000);
+  $('.nav').delay(1000).animate({'margin-top':'0'},500, 'easeOutExpo');
+  $('.header-image-sm').animate({'opacity':'1'},1000);
+  // $('.intro1').addClass('scaler');
+});
+
+
+$(document).ready(function() {
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() * .5);
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                $(this).animate({'opacity':'1', 'padding-top': '-10px'},350);
+                    
+            }
+        });
+    });
+});
+</script>

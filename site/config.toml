@@ -1,7 +1,26 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Homepage"
+title = "Sharif Ezzat | Creative Director"
+
+[menu]
+	[[menu.main]]
+	identifier = "work"
+	name = "WORK"
+	url = "/post"
+	weight = 1
+
+	[[menu.main]]
+	identifier = "about"
+	name = "ABOUT"
+	url = "/about"
+	weight = 2
+
+	[[menu.main]]
+	identifier = "contact"
+	name = "CONTACT"
+	url = "/contact"
+	weight = 3
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 

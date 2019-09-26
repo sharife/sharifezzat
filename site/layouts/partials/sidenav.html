@@ -1,0 +1,15 @@
+<div id="mySidenav" class="sidenav z-max">
+	<a href="javascript:void(0)" class="closebtn white" onclick="closeNav()">&times;</a>
+    <hr width="80%" style="border-color: white; opacity: 0.5; margin-left: 1.75rem;">
+    <ul style="margin-bottom:2rem;">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            <li class="b {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                <a href="{{ .URL }}">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+        {{ end }}	
+	</ul>
+</div>
