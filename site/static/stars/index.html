@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html;  charset=ISO-8859-1">
+<title>like stars in a clear night sky</title>
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function Is() {
+	var agent = navigator.userAgent.toLowerCase();
+	this.major = parseInt(navigator.appVersion);
+	this.minor = parseFloat(navigator.appVersion);
+	this.ns = ((agent.indexOf('mozilla') != -1) && ((agent.indexOf('spoofer') == -1) && (agent.indexOf('compatible') == -1)));
+	this.ns4 = (this.ns && (this.major == 4));
+    this.ns6up = (this.ns && (this.major >= 5));
+	this.ie = (agent.indexOf("msie") != -1);
+	this.ie4 = (this.ie && (this.major >= 4));
+    this.mac = (agent.indexOf("mac")!=-1);
+};
+
+var is = new Is();
+
+function openWindow(StartURL,WinName) {
+
+	var WinParams = "";
+	var WinWidth = screen.availWidth;
+	var WinHeight = screen.availHeight;
+	if (is.ns4 || is.ns6up) {
+		var WinParams = "screenX=0,screenY=0,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=no,width=" + WinWidth + ",height=" + WinHeight;
+		window.open(StartURL,WinName,WinParams);
+	}
+        
+	else if (is.ie4)  {
+		var WinParams = "left=0,top=0,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=no,width=" + WinWidth + ",height=" + WinHeight;
+		window.open(StartURL,WinName,WinParams);
+	}
+        
+	else {
+		return false;
+	}
+}
+
+// -->
+</script>	
+</head>
+
+<body bgcolor="#000000" text="#cccccc" link="#ffffff" alink="#ffffff" vlink="#ffffff" marginheight="0" marginwidth="0" topmargin="0" bottommargin="0" rightmargin="0" leftmargin="0">
+<table width="300" height="100%" border="0" align="center"><tr><td align="center" valign="middle">
+<font face="georgia,times" size="2">
+like stars in a clear night sky<br>
+<font size="1">sharif ezzat</font>
+<br><br><br>
+<a href="javascript:openWindow('stars.html','stars')">ENTER</a><br><br><br><br>
+<font size="1"><a href="http://www.macromedia.com/go/getflashplayer" target="_blank">requires flash</a></font>
+</font>
+</td></tr>
+</table>
+</body>
+</html>

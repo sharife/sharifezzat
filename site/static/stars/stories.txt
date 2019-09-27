@@ -1,0 +1,421 @@
+<story id="1" tag="uncle" title="Shall I tell you about my uncle, whose life is a test?" >
+He is full of warmth.
+He tells jokes in a soft voice,
+One after another.
+He is patient.
+
+As a young man
+He sought opportunities all over the world.
+His travels led him to a tropical country
+Where he felt the sensuous benevolence
+Exuded by the land and the people.
+He had found his muse.
+
+His career required him to visit a northern city
+Where he happened to meet a beautiful woman
+From the country of his birth
+Who enchanted him.
+
+Before long they were married.
+And he prepared to take his young bride
+Back to the country he loved.
+
+She hated it.
+The people she found ignorant and rude.
+The climate was too warm.
+The landscape was too vivid.
+
+She insisted on returning to her city in the north.
+
+What could he do? He followed her back.
+
+The next years produced bright, independent children
+And saw husband and wife grow distant.
+But the pain in his face 
+When she says something petty
+Is barely concealed.
+
+He tells me a story
+About a man long ago
+Who was married to an abusive woman.
+She finally died, and at the funeral
+The man wept uncontrollably.
+
+"Why are you weeping?" his neighbors asked.
+"This was an evil woman. You're free now!"
+
+"This woman," he replied, "was my test, 
+My purpose in life. Now what is left?"
+
+Is this life a test?
+Is that why we suffer?
+Or is that how we endure it?</story>
+
+<story id="2" tag="cousin" title="Shall I tell you about my cousin, whose palace is unfinished?" >
+He is generous and thoughtful,
+Loving and loved.
+His life is suffocating him.
+
+He is the oldest of my generation,
+And so as a child he was smothered
+With the affection of aunts and uncles and grandparents.
+He learned to navigate crowds and please adults at an early age.
+
+As a young man, he studied business and traveled,
+Coming home to work for a large foriegn company
+And start a family.
+
+He fell in love with a woman
+Of whom his family disapproved.
+They forsaw troubles for the couple
+But he silenced their criticism
+And married her.
+
+My father has always been close to him.
+They speak the same language,
+Have worked in the same industries
+And they share a playfulness and love of women
+That is at once juvenile and infectous.
+
+It was that love of women
+That eventually distracted my cousin
+From his domestic life.
+With two young children
+And a dedicated wife,
+He began to see another woman.
+
+She was young, an employee of his.
+The relationship began casually
+But escalated quickly
+As she made more demands of him,
+Envious of the time he spent with the other.
+He bought her gifts to placate her.
+
+Of course,
+His family discovered the betrayal
+And pressured him to end it.
+He defended his position,
+Even proposed to the young woman,
+But in the end he conceded to his family's demands.
+
+Now he moves about quickly
+Changing the topic of conversation
+With every other breath.
+He has three jobs and two businesses.
+He is always excusing himself to talk to someone.
+He shows me the site of his future home, 
+Under construction.
+It is massive, 
+Larger than any house I have seen here.
+The whole neighborhood is under construction,
+Unfinished palaces.
+
+What will it take to make him happy?</story>
+
+<story id="3" tag="stars" title="Shall I tell you about the stars, why they respond so slowly?" >
+When we were young,
+The stars lived all together.
+They danced and sang,
+Ecstatic in their intimacy and novelty.
+
+But soon, they became aware of the emptiness around them,
+And they were fascinated.
+Some got the idea that they could venture into it,
+And in doing so become larger,
+Perhaps even as large as that emptiness.
+
+One by one they left
+Few at first,
+But many followed
+In the exhiliration of departure
+Until they spread across the entire universe.
+
+Now they are far apart.
+They flicker and pulse in a sad, slow cadence.
+They are sometimes a bit larger or a bit smaller,
+But they are alone.
+
+When you speak to them,
+You must address them individually.
+You must look directly at each one.
+And speak clearly but softly.
+Be patient;
+The distance is greater than you think.</story>
+
+<story id="4" tag="boy" title="Shall I tell you about the boy who dreams the world?" >
+Eternity.
+
+Lush gardens with abundant fruits
+Ringed by shimmering palaces
+With walls of radiant geometric designs traced in crystal,
+Cool rivers and gentle brooks all mesmerized him,
+But eternity posed a problem.
+
+He thought of all the adventures he might have,
+All the eras of history he would like to visit,
+All the languages he could learn,
+All the cities and coastlines and jungles to wander,
+But this added up to only a fraction of Eternity.
+He shrank before the immensity of the Paradise
+Offered to him.
+
+Over time, he began to reject it.
+"Who would desire such a thing?" he wondered.
+"How could it not drive a person mad?"
+
+It seemed like a cruel trick.
+This uncertainty of the value
+Of his reward for a lifetime of submission
+Cast doubt on the whole system.
+In desperation, he turned to an authority:
+
+"Dad, won't we get bored in Heaven?"
+
+A laugh.
+"You just worry about getting there.
+Then you can think of something to do."
+
+Condescending, uninformative.
+He was left to find his own answers.
+
+How to occupy Eternity?
+The question coursed through him over and over.
+His imagination systematically exhausted
+The possibilities of future experiences.
+He couldn't sleep.
+There had to be some formula,
+Some way to escape finite limitations...
+
+Then one night, an idea struck him
+With all of its blazing simplicity.
+The finite limitation was himself!
+He would pass Eternity in Paradise
+By living as each and every thing that could ever live.
+
+Every tree, every flower,
+Every animal and insect,
+Every person that ever was.
+And each time, he would erase his memory,
+So that he would always await Paradise.
+
+He breathed a sigh of relief, leaned back,
+And closed his eyes.
+
+Just before falling asleep,
+He realized with a shock that
+All this had already happened
+And his life now,
+His home, his father, his face,
+Was simply a dream he dreamt from Paradise.</story>
+
+<story id="5" tag="land" title="Shall I tell you about the land where people rush to cross?" >
+It was a strange land,
+With many roads and few destinations.
+There were signs everywhere
+Instructing people to do this
+Prohibiting people from doing that,
+But mostly people did as they pleased,
+And the only rules that were enforced
+Were the ones protecting those people in power,
+The people who broke the rules most often.
+
+In the blink of an eye,
+The soft, irregular shapes of the land
+Became hard and regular
+And the people swarmed over them
+At incredible speeds.
+No one remembered the voice of the land;
+They had forgotten it had one at all.
+
+But the land cannot forget.
+Everywhere are sad traces of its history.
+Confused and astonished at how quickly it is dying,
+The land grieves and waits.
+
+What does it wait for?
+For someone to listen, to recognize its voice,
+To hear its story.
+But it also waits for its eventual rebirth.
+It will happen, sooner or later.
+The question is,
+Will we be there to see it?</story>
+
+<story id="6" tag="love" title="Shall I tell you about my love? She is near to me always." >
+If I am telling the story
+I will describe how I found her,
+But if she is telling the story
+She will tell you the truth,
+That it was she who found me.
+
+We met at a costume party.
+After dancing and consuming strange blue drinks
+From a girl in a silver sequined nurse's uniform,
+I wandered to the back of the party
+And sat down against a wall.
+I was a bit exhausted, but the party was in full swing,
+So I decided to stay a little longer.
+
+Just then a beautiful girl seated a few feet away
+Turned and asked me if I could share some warmth.
+"Of course," I answered, and she came closer,
+Wrapping herself in my arms.
+
+She was adorable, dressed - quite authentically - as a pirate.
+I'm not sure how I appeared to be warm
+As I was painted all in black,
+But she showed no hesitation
+As she made herself comfortable.
+
+We talked for hours,
+About our families, places we'd travelled, good food...
+Before we parted, she granted me one kiss.
+
+I left town the next day to attend an art festival.
+We corresponded while I was away
+And I found myself thinking about her all the time.
+I had suffered for love my entire life,
+At times imposing it on others,
+At times brandishing it like a sword.
+I was so certain of the intensity of my love
+That I was sometimes frightened,
+But this girl had effortlessly captured it
+With a single embrace.
+
+We arranged to meet when I returned.
+Neither of us realized that we were in disguise
+When we first met,
+So I sat at the bar and tried to identify
+The mysterious pirate girl.
+Soon enough, she walked up to me.
+We laughed.
+She had found me twice.
+
+I feel her presence always.
+She has tempered my intensity,
+Taught me simple compassion,
+And lessened my dependence on words.
+How can I express my love?
+I must show her, everyday,
+With infinite permutations of truth and beauty.</story>
+
+<story id="7" tag="water" title="Shall I tell you of my water, which is getting thirsty?" >
+My water likes to dance.
+
+Sometimes she moves slowly and gently,
+Sometimes she moves forcefully,
+Crashing and surging.
+Do not be afraid;
+She simply enjoys testing her strength,
+Like a wild horse running.
+
+Above all my water is mild and playful,
+And will always embrace you.
+
+But now my water is thirsty.
+Her color has changed.
+In many places she has stopped moving.
+Some, envious of her untamed strength,
+Seek to control her.
+They do not realize her bounty is volitional.
+Constrained and adulterated, she shivers and weeps.</story>
+
+<story id="8" tag="world" title="Perhaps I should tell you that the whole world is determined to become my family." >
+Perhaps I should tell you that the whole world 
+Is determined to become my family.
+
+It's true,
+They are knocking on the door now.
+
+Some are scared and seeking shelter.
+Some are confused and don't know how they arrived.
+Others are overjoyed
+And have already
+Started cooking a feast.
+
+I tell them there is no hurry.
+I ask them to keep it down;
+You are still sleeping in a small room upstairs.
+</story>
+
+<story id="9" tag="sister" title="Shall I tell you about my sister? Let me tell you about my sister..." >
+She is beautiful, vibrant, precious...
+A doctor, athlete, world traveler and intellectual.
+She is hurting right now.
+You see, she is passionately in love.
+
+They met while she was visiting me.
+I had taken her to hear a samba band
+Her favorite music.
+
+As she was dancing,
+I went to the bar for a drink.
+
+A man approached me and timidly asked
+About the woman I was with
+I said it was my sister, and he sighed with relief.
+Then he asked my permission to speak with her.
+
+Confident that she could handle herself,
+I gave my permission.
+He appeared sincere, perhaps even shy.
+
+It was, apparently, love at first sight.
+
+Over the next several months, 
+Their relationship grew
+As they slowly began to trust each other.
+
+Many times my sister called me for advice.
+I tried to console her fears and insecurities.
+Then I began to run into her on the street,
+Obviously visiting him.
+Then she moved to the same city.
+
+I watched the two of them grow in many respects,
+Even as they descended into a cycle of pain and drama.
+
+Their problems began as practical matters.
+He had two young children
+And a limited education.
+
+She was fiercly independent, a professional
+And did not much like children.
+
+To add to this, my parents were alarmed 
+To discover that their daughter
+Was involved with a man below their social class.
+
+As I tried to support and comfort my sister, 
+Seeing in her predicament 
+A challenge suited to her character,
+I received increasingly desperate calls from my parents
+Who implored me to intervene on their behalf.
+
+What could I do? They were in love.
+You could tell from across the room.
+How could anyone stand in the way of such a force?
+
+Just as I saw the relationship 
+As a challenge for my sister,
+I saw my parents' shock
+As the challenge particularly suited to them.
+
+How life presents us 
+With appropriate dilemmas...
+
+Though my sister came to develop 
+A wonderful relationship with the children,
+The mounting pressure began to disturb the lovers
+And they reacted with fear and hostility.
+
+The drama became a ritual,
+A habit with its own momentum.
+
+Eventually, she became exhausted,
+Physically and emotionally,
+And she sought ways of healing.
+She began to study
+And become conscious of the dimensions of suffering,
+Which reflect the dimensions of happiness.
+
+What now will become of her?</story>
