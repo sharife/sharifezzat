@@ -14,6 +14,6 @@ Below are some favorite posters from over the years.
 
 {{< figure src="/img/aff2018.jpg" title="" >}}
 
-{{< figure src="/img/aff2010.jpg" title="" >}}
+{{< figure src="/img/aff2015.jpg" title="" >}}
 
-{{< figure src="/img/aff-02.jpg" title="" >}}
+{{< figure src="/img/aff2010.jpg" title="" >}}
