@@ -2,26 +2,12 @@
 title: Genome Surgery at UCSF
 date: 2018-09-04T15:04:10.000Z
 description: >-
-  I collaborated with filmmakers and animators to produce this series for Genentech's YouTube channel. The first piece, *How to Get Into the Brain*, was a finalist in the Platinum PR Awards *Best Video* category, and won a company award for innovation in science communication.
-image: /img/into-the-brain.jpg
+  Researchers at UCSF are paving the way in the new field of *genome surgery*, using CRISPR gene editing to treat disease. I produced this short documentary featuring Jim Johnsen, who has a condition called Best disease that is caused by a single gene mutation, along with Jennifer Doudna and Bruce Conklin, two of the leading figures in CRISPR research, to convey the promise of this approach.
+image: /img/genome-surgery.jpg
 ---
 
-{{< youtube S-n0BONQhH8 >}}
+{{< youtube a0RIRsUrgNs >}}
 
 <br>
 
-Watch more videos from the series:
-
-{{< youtube eyB6P51WFwA >}}
-
-<br>
-
-{{< youtube FioqWMEHJRs >}}
-
-<br>
-
-{{< youtube Gh_0Iu3GpIo >}}
-
-<br>
-
-{{< youtube bp9axcGyxY0 >}}
+Read the [full story](https://www.ucsf.edu/news/2018/10/412116/first-genome-surgeons).

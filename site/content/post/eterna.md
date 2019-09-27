@@ -2,15 +2,16 @@
 title: EteRNA
 date: 2019-06-04T15:04:10.000Z
 description: >-
-  I collaborated with filmmakers and animators to produce this series for Genentech's YouTube channel. The first piece, *How to Get Into the Brain*, was a finalist in the Platinum PR Awards *Best Video* category, and won a company award for innovation in science communication.
-image: /img/ribosome_challenge.jpg
+  EteRNA is a citizen science game that recruits players to design RNA molecules by solving puzzles. These designs are then synthesized in the lab and used for biomedical research.  
+image: /img/eterna.jpg
 ---
 
-{{< youtube S-n0BONQhH8 >}}
+I worked with the team at Stanford School of Medicine to launch *OpenTB*, a campaign to develop a new diagnostic device for tuberculosis through the game. Using RNA to detect active tuberculosis in blood samples could provide a fast, accurate, and open source method to help diagnose and treat TB patients. By analyzing, redesigning, and play-testing the game experience, we helped grow the player community to address this unique biomedical challenge.
 
-<br>
+{{< figure src="/img/eterna-02.jpg" title="" >}}
 
-Watch more videos from the series:
+{{< youtube V2qtNyJ3KQg >}}
 
-{{< youtube eyB6P51WFwA >}}
+Learn more and play at [eternagame.org](https://eternagame.org).
 
+<br />

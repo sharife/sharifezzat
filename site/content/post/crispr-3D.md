@@ -6,6 +6,8 @@ description: >-
 image: /img/crispr-3D-01.jpg
 ---
 
+{{< figure src="/img/crispr-screens.png" title="" >}}
+
 View the app preview:
 
 {{< youtube 5KQ-taZww8c >}}
