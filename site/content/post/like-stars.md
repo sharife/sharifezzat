@@ -10,3 +10,5 @@ The piece begins with a narrated introduction in Arabic, setting the tone for th
 {{< figure src="/img/stars-02.jpg" title="" >}}
 
 {{< figure src="/img/stars-03.jpg" title="" >}}
+
+[View the project](/stars).
