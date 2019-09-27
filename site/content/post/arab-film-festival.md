@@ -6,7 +6,7 @@ description: >-
 image: /img/aff2019.jpg
 ---
 
-I also designed the brand for the new Arab Film and Media Institute which emerged from the festival's growth as an organization.
+I also designed the brand for the new [Arab Film and Media Institute](https://arabfilminstitute.org) which emerged from the festival's growth as an organization.
 
 {{< figure src="/img/afmi_brand_overview.jpg" title="" >}}
 

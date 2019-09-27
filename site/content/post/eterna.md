@@ -12,6 +12,8 @@ I worked with the team at Stanford School of Medicine to launch *OpenTB*, a camp
 
 {{< youtube V2qtNyJ3KQg >}}
 
+<br />
+
 Learn more and play at [eternagame.org](https://eternagame.org).
 
-<br />
+
