@@ -18,10 +18,10 @@ intro:
         Through these experiences, Sharif began to focus his work on science communication. As a member of Genentech’s digital communications team he led the redesign of the company’s complex intranet, which was awarded by the Nielsen Norman Group for excellence in design and usability. He also led the production of *Making Medicine*, an interactive documentary about the process of biotech research and development, and the animated YouTube video series *Big Ideas*.
     - imageUrl: "/img/eterna.jpg"
       text: >
-        In 2016 he helped launch *OpenTB*, a citizen science initiative in which players of the puzzle game EteRNA were recruited to design a new diagnostic tool for tuberculosis. The project, a collaboration between Stanford, MIT, and the online player community, pioneered the use of gaming to crowdsource the design of medicines. 
+        In 2016 he helped launch *OpenTB*, a citizen science initiative in which players of the puzzle game Eterna were recruited to design a new diagnostic tool for tuberculosis. The project, a collaboration between Stanford, MIT, and the online player community, pioneered the use of gaming to crowdsource the design of medicines. 
     - imageUrl: "/img/other.jpg"
       text: >
-        Sharif continues to apply his expertise in science communication and digital storytelling for clients such as UCSF, Stanford School of Medicine, the Buck Institute, the Innovative Genomics Institute, and many Bay Area biotech companies as a partner at [Receptor Studio](https://receptorstudio.com) and through his consultancy [Vital Mind Media](https://vitalmindmedia.com). He also serves as an associate judge for the Webby Awards, and design director for the Arab Film and Media Institute.
+        Sharif continues to apply his expertise in science communication and digital storytelling for clients such as UCSF, Stanford School of Medicine, the Buck Institute, the Innovative Genomics Institute, and many Bay Area biotech companies as a partner at [Receptor Studio](https://receptorstudio.com) and through his consultancy [Vital Mind Media](https://vitalmindmedia.com). He also serves as an associate judge for the Webby Awards, and design director for the [Arab Film and Media Institute](https://arabfilminstitute.org).
   description: >
 ---
 
