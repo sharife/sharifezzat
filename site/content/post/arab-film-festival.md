@@ -2,7 +2,7 @@
 title: Arab Film Festival
 date: 2019-01-04T15:04:10.000Z
 description: >-
-  I've produced the key art for the Arab Film Festival for many years. This year's artwork explores the relationship between the objective gaze of the camera and the layered, subjective reality of the world it attepts to capture. Several films this year are from North African countries, so the traditional patterned tiles of the region formed the visual basis of the design.
+  I've produced the key art for the Arab Film Festival for many years. This year's artwork explores the relationship between the objective gaze of the camera and the layered, subjective reality of the world it attempts to capture. Several films this year are from North African countries, so the traditional patterned tiles of the region formed the visual basis of the design.
 image: /img/aff2019.jpg
 ---
 
