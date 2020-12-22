@@ -49,7 +49,7 @@
             text-align: center;
             transform: translate(-50%, -50%);
             overflow-y: auto;
-            max-height: 80vh;
+            max-height: 70vh;
             line-height: 1.5rem;
             border-top: 1px dotted rgba(255,255,255,.3);
             border-bottom: 1px dotted rgba(255,255,255,.3);
@@ -312,11 +312,11 @@
 
             var posx = (Math.random() * ($('#container').width() - divsize)).toFixed();
             var posy = (Math.random() * ($('#container').height() - divsize)).toFixed();
-            if (posy < 20) {
-                posy = posy + 20;
+            if (posy < 30) {
+                posy = posy + 30;
             }
-            if (posy > ($('#container').height() - 70)) {
-                posy = posy - 70;
+            if (posy > ($('#container').height() - 90)) {
+                posy = posy - 90;
             }
 
             $newdiv.css({
