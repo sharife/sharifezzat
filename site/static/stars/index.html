@@ -36,7 +36,7 @@
         }
         #container, #gate, #introholder {
             width: 100vw;
-            height: 90vh;
+            height: 100vh;
             overflow: hidden;
         }
         #storyholder, #gateinfo {
@@ -312,6 +312,12 @@
 
             var posx = (Math.random() * ($('#container').width() - divsize)).toFixed();
             var posy = (Math.random() * ($('#container').height() - divsize)).toFixed();
+            if (posy < 20) {
+                posy = posy + 20;
+            }
+            if (posy > ($('#container').height() - 70)) {
+                posy = posy - 70;
+            }
 
             $newdiv.css({
                 'position':'absolute',
