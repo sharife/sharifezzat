@@ -352,6 +352,9 @@
                     $('#storyholder').fadeIn(2000);
                     $('#storyholder').click(function(){ closeStory(); });
                     $('#storyholder').scrollTop(0);
+                    setTimeout( function() {
+                        $('#storyholder').scrollTop(0)
+                    }, 300 );
                 }
             }
         }
