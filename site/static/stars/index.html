@@ -1,58 +1,394 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv=Content-Type content="text/html;  charset=ISO-8859-1">
-<title>like stars in a clear night sky</title>
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function Is() {
-	var agent = navigator.userAgent.toLowerCase();
-	this.major = parseInt(navigator.appVersion);
-	this.minor = parseFloat(navigator.appVersion);
-	this.ns = ((agent.indexOf('mozilla') != -1) && ((agent.indexOf('spoofer') == -1) && (agent.indexOf('compatible') == -1)));
-	this.ns4 = (this.ns && (this.major == 4));
-    this.ns6up = (this.ns && (this.major >= 5));
-	this.ie = (agent.indexOf("msie") != -1);
-	this.ie4 = (this.ie && (this.major >= 4));
-    this.mac = (agent.indexOf("mac")!=-1);
-};
-
-var is = new Is();
-
-function openWindow(StartURL,WinName) {
-
-	var WinParams = "";
-	var WinWidth = screen.availWidth;
-	var WinHeight = screen.availHeight;
-	if (is.ns4 || is.ns6up) {
-		var WinParams = "screenX=0,screenY=0,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=no,width=" + WinWidth + ",height=" + WinHeight;
-		window.open(StartURL,WinName,WinParams);
-	}
-        
-	else if (is.ie4)  {
-		var WinParams = "left=0,top=0,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=no,width=" + WinWidth + ",height=" + WinHeight;
-		window.open(StartURL,WinName,WinParams);
-	}
-        
-	else {
-		return false;
-	}
-}
-
-// -->
-</script>	
+<meta charset="utf-8">
+<title>Like Stars in a Clear Night Sky</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/howler.core.js"></script>
+    <style type="text/css">
+        head, body {
+            color: white;
+            background: black;
+            font-family: "Times New Roman", serif;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            padding: 0 7rem;
+            margin-bottom: 2rem;
+        }
+        .small {
+            font-size: 0.8rem;
+        }
+        #gateinfo {
+            cursor: pointer;
+            transition: background 1s;
+        }
+        #gateinfo:hover {
+            background: #111;
+        }
+        #container, #gate, #introholder {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #storyholder, #gateinfo {
+            max-width: 40rem;
+            padding:2rem;
+            background: rgba(0,0,0,0.8);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            overflow-y: auto;
+            max-height: 80vh;
+            line-height: 1.5rem;
+            border-top: 1px dotted rgba(255,255,255,.3);
+            border-bottom: 1px dotted rgba(255,255,255,.3);
+        }
+        #intro {
+            max-width: 80vw;
+            padding:2rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            max-height: 80vh;
+            line-height: 1.5rem;
+            font-style: italic;
+            font-size: 1.15rem;
+        }
+        #labelholder {
+            position:absolute;
+        }
+        .star {
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            background-image: radial-gradient(#f7f3bf, rgba(255,255,255,0));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .blue {
+            background-image: radial-gradient(#82c9f4, rgba(255,255,255,0));
+            transition: background 1s;
+            /*border: 1px solid #003366;*/
+            cursor: pointer;
+        }
+        .blue:hover {
+            background-image: radial-gradient(#89c8f7, rgba(255,255,255,0));
+        }
+        .close {
+            padding: 1rem;
+            text-align:center;
+            width:100%;
+        }
+        .label {
+            position: relative;
+            max-width: 200px;
+            font-size:1.1rem;
+            text-align:center;
+            background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+            top:1rem;
+            padding:0.5rem;
+            flex-shrink: 0;
+            font-style: italic;
+        }
+        #storyholder::-webkit-scrollbar-thumb {
+          background-color: darkgrey;
+          outline: 1px solid slategrey;
+        }
+        @media only screen and (max-width: 700px) {
+           #storyholder {  width: 80vw; }
+        }
+        @media only screen and (max-width: 400px) {
+           #storyholder {  width: 90vw; }
+        }
+        /*#timer {
+            position: absolute;
+            top:10px;
+            left:10px;
+            background:#222;
+            padding:1rem;
+        }*/
+    </style>
 </head>
 
-<body bgcolor="#000000" text="#cccccc" link="#ffffff" alink="#ffffff" vlink="#ffffff" marginheight="0" marginwidth="0" topmargin="0" bottommargin="0" rightmargin="0" leftmargin="0">
-<table width="300" height="100%" border="0" align="center"><tr><td align="center" valign="middle">
-<font face="georgia,times" size="2">
-like stars in a clear night sky<br>
-<font size="1">sharif ezzat</font>
-<br><br><br>
-<a href="javascript:openWindow('stars.html','stars')">ENTER</a><br><br><br><br>
-<font size="1"><a href="http://www.macromedia.com/go/getflashplayer" target="_blank">requires flash</a></font>
-</font>
-</td></tr>
-</table>
+
+
+<body>
+    <div id="container"></div>
+    <div id="storyholder"></div>
+    <!-- <div id="timer">0:00</div> -->
+    <div id="introholder">
+        <div id="intro"></div>
+    </div>
+    <div id="labelholder"></div>
+    <div id="gate">
+        <div id="gateinfo" onclick="displayStars();">
+            <h1>Like Stars in a Clear Night Sky<br />
+                <span class="small">by Sharif Ezzat</span>
+            </h1>
+            <h1><strong>ENTER</strong></h1>
+            <p class="small">Instructions: Select a blue star to open a story. Click or tap on the story to close.</p>
+        </div>
+    </div>
+
+    <script>
+        $('#gate').hide();
+        $('#intro').hide();
+        $('#storyholder').hide();
+
+        storyStars = [];
+        e = 0;
+        a = 0;
+        var timerID;
+
+        // load stories
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            stories = JSON.parse(this.responseText);
+          }
+        };
+        xmlhttp.open("GET", "stories.json", true);
+        xmlhttp.send();
+
+
+        // load subtitles
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            subtitles = JSON.parse(this.responseText);
+          }
+        };
+        xmlhttp.open("GET", "subtitles.json", true);
+        xmlhttp.send();
+
+        // display gate
+        $('#gate').fadeIn(3000);
+
+        // loop audio
+        looper = new Howl({
+          src: ['audio/loop.ogg','audio/loop.mp3'],
+          autoplay: true,
+          loop: true,
+          volume: 0.3,
+          onend: function() {
+            //console.log('Finished!');
+          }
+        });
+
+
+        // intro audio
+        intro = new Howl({
+          src: ['audio/intro.ogg','audio/intro.mp3'],
+          autoplay: true,
+          loop: false,
+          volume: 0.4,
+          onend: function() {
+            //console.log('Finished!');
+            cancelAnimationFrame(timerID);
+            closeIntro();
+          },
+          onplay: function() {
+            timerID = requestAnimationFrame(updateTimer);
+            $('#container').click(function() {
+                closeIntro();
+            });
+          },
+          onseek: function () {
+            timerID = requestAnimationFrame(updateTimer);
+          }
+        });
+
+
+        // play audio
+        $('#gate').click(function() {
+            if (a==0) {
+                closeGate();
+                looper.play();
+                looper.fade(0, 0.3, 30000);
+                intro.play();
+                a++;
+            }
+        });
+
+
+        // timer
+        function updateTimer() {
+            var seek = intro.seek() || 0;
+            var time = formatTime(Math.round(seek));
+            //$("#timer").html(time);
+            timerID = requestAnimationFrame(updateTimer);
+            for (var p=0;p<subtitles.length;p++) {
+                if (seek > subtitles[p].time) {
+                    if (subtitles[(p+1)]) {
+                        if (seek < subtitles[(p+1)].time) {
+                            if (document.getElementById("intro").innerHTML != subtitles[p].text) {
+                                $('#intro').hide().delay(100).fadeIn(1000);
+                                $('#intro').html(subtitles[p].text);
+                            }
+                        }
+                    } else {
+                        $('#intro').hide();
+                    }
+                }
+            }
+        }
+
+        function formatTime(secs) {
+            var minutes = Math.floor(secs / 60) || 0;
+            var seconds = (secs - minutes * 60) || 0;
+            return minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+        }
+
+
+        // label follows the mouse
+        $(document).on('mousemove', function(e){
+            $('#labelholder').css({
+               left:  e.pageX+5,
+               top:   e.pageY+5
+            });
+            let intViewportWidth = window.innerWidth;
+            let intViewportHeight = window.innerHeight;
+            if (e.pageX+100 > intViewportWidth) {
+                $('#labelholder').css({
+                   left:  e.pageX-150
+                });
+            }
+            if (e.pageY+100 > intViewportHeight) {
+                $('#labelholder').css({
+                   top:  e.pageY-150
+                });
+            }
+        });
+
+
+        function displayStars() {
+            for (var q=0;q<100;q++) {
+                var myStar = makeStar(q);
+            }
+        }
+
+
+        function makeStar(n){
+            var divsize = ((Math.random()*120) * .1).toFixed();
+            //var color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
+            $newdiv = $('<div/>').css({
+                'width':divsize+'px',
+                'height':divsize+'px'
+                //'background-color': color
+            });
+
+            var starID = 'star-'+n;
+            
+            $newdiv.addClass("star");
+            $newdiv.addClass(starID);
+            $newdiv.id = starID;
+
+            if (divsize > 10) {
+                if (stories[e]) {
+                    storyStars.push(starID);
+                    $newdiv.addClass("blue");
+                    $newdiv.click(function(){displayStory(starID)});
+                    $newdiv.hover(function(){displayTitle(starID)}, function(){closeLabel()});
+                    e++;
+                }
+            }
+
+            var posx = (Math.random() * ($('#container').width() - divsize)).toFixed();
+            var posy = (Math.random() * ($('#container').height() - divsize)).toFixed();
+
+            $newdiv.css({
+                'position':'absolute',
+                'left':posx+'px',
+                'top':posy+'px'
+            }).appendTo( '#container' ).hide().delay((Math.random()*10000)).fadeIn(3000);
+            return $newdiv;
+        };
+
+
+        function displayTitle(starID) {
+            for (var i=0;i<storyStars.length;i++) {
+                if (storyStars[i] == starID) {
+                    $('#labelholder').fadeOut(0);
+                    removeLabel();
+                    var newLabel = document.createElement("div");
+                    newLabel.id = "label";
+                    newLabel.innerHTML = "<p class='label'>"+stories[i].title+"</p>";
+                    $('#labelholder').append(newLabel);
+                    $('#labelholder').fadeIn(300);
+                }
+            }
+        }
+
+
+        function displayStory(starID) {
+            for (var i=0;i<storyStars.length;i++) {
+                if (storyStars[i] == starID) {
+                    $('#storyholder').fadeOut(0);
+                    closeLabel();
+                    removeStory();
+                    var newStory = document.createElement("div");
+                    //var newContent = document.createTextNode(stories[i].text);
+                    newStory.id = "story";
+                    newStory.innerHTML = "<h1>"+stories[i].title+"</h1><p>"+stories[i].text+"</p>";
+                    //newStory.classList.add("label");
+                    $('#storyholder').append(newStory);
+                    $('#storyholder').fadeIn(2000);
+                    $('#storyholder').click(function(){ closeStory(); });
+                    $('#storyholder').scrollTop(0);
+                }
+            }
+        }
+
+
+        function closeIntro() {
+            intro.stop();
+            $('#intro').fadeOut(300, removeIntro);
+        }
+
+
+        function removeIntro() {
+            $('#intro').hide();
+        }
+
+        function closeGate() {
+            $('#gate').fadeOut(800, removeGate);
+        }
+
+
+        function removeGate() {
+            $('#gate').hide();
+        }
+
+
+        function closeStory() {
+            $('#storyholder').fadeOut(1000, removeStory);
+        }
+
+
+        function removeStory() {
+            $('#story').remove();
+        }
+
+
+        function closeLabel() {
+            $('#labelholder').fadeOut(100, removeLabel);
+        }
+
+
+        function removeLabel() {
+            $('#label').remove();
+        }
+
+
+    </script>
+    
 </body>
 </html>
