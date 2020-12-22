@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Like Stars in a Clear Night Sky</title>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/howler.core.js"></script>
@@ -10,6 +12,7 @@
             color: white;
             background: black;
             font-family: "Times New Roman", serif;
+            font-size: 16px;
             overflow: hidden;
         }
         h1 {
@@ -23,7 +26,10 @@
         }
         #gateinfo {
             cursor: pointer;
-            transition: background 1s;
+            transition: all 1.5s;
+        }
+        #gateinfo.animate {
+            transform: scale(0.5) translate(-100%, -100%);
         }
         #gateinfo:hover {
             background: #111;
@@ -103,10 +109,13 @@
           outline: 1px solid slategrey;
         }
         @media only screen and (max-width: 700px) {
-           #storyholder {  width: 80vw; }
+           #storyholder, #gateinfo {  width: 80vw; line-height: 1.3rem; }
+           h1 { padding: 0 2.5rem; line-height: 1.6rem; }
+           #labelholder, .label { display: none; }
         }
         @media only screen and (max-width: 400px) {
-           #storyholder {  width: 90vw; }
+           #storyholder, #gateinfo {  width: 90vw; }
+           h1 { padding: 0 1rem; }
         }
         /*#timer {
             position: absolute;
@@ -359,6 +368,7 @@
         }
 
         function closeGate() {
+            $('#gateinfo').toggleClass('animate');
             $('#gate').fadeOut(800, removeGate);
         }
 
