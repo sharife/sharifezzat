@@ -14,14 +14,14 @@ Watch more videos from the series:
 
 {{< youtube eyB6P51WFwA >}}
 
-<br>
+<br><br>
 
 {{< youtube FioqWMEHJRs >}}
 
-<br>
+<br><br>
 
 {{< youtube Gh_0Iu3GpIo >}}
 
-<br>
+<br><br>
 
 {{< youtube bp9axcGyxY0 >}}
