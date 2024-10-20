@@ -1,17 +1,17 @@
-<footer class="bg-black ph3 pv3 white">
+<footer class="ph3 pv3 white {{if .IsHome }}absolute w-100{{ else }}bg-black{{ end }}" {{if .IsHome }}style="bottom:0;"{{ end }}>
 
-	<div class="mw7 center pt3">
-		<div class="flex-ns justify-between">
+	<div class="center pt3">
+		<div class="flex justify-between">
 
 			<div>
 				<ul class="mhn2">
 					{{ partial "social-icon" (dict "link" "http://www.linkedin.com/in/sezzat" "svg" "icons-linkedin") }}
 					{{ partial "social-icon" (dict "link" "http://twitter.com/goodsharif" "svg" "icons-twitter") }}
-					<!-- {{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }} -->
+					{{ partial "social-icon" (dict "link" "http://instagram.com/sharifezzat" "svg" "icons-instagram") }}
 				</ul>
 			</div>
 			<div>
-				<h5 class="f6 grey-3">Copyright &copy; Sharif Ezzat</h5>
+				<h5 class="f6" style="opacity:0.5;">Copyright &copy; Sharif Ezzat</h5>
 			</div>
 
 		</div>

@@ -1,18 +1,23 @@
-<div class="pv5 pv6-l ph3 bg-center cover header-image" style="background-image: url('{{.imageUrl}}'); height:100vh;">
-  <div class="mw8 center ph3 pt5 pt0-ns">
-    <div class="db mb3 absolute-ns mt5 mt0-ns bg-black pa3 br1 center" style="bottom:20%;">
-      {{ if .title }}
+<div class="bg-black">
+  <div class="image-container bg-center center cover intro-page">
+    {{ range $index, $e := .slideshow}}
+      <img src="{{.Permalink}}{{.image}}" class="br0" />
+    {{ end }}
+  </div>
+  <div class="center">
+    <div class="db mb3 absolute mt5 mt0-ns pa3 br1 center" style="bottom:15%;">
+      <!-- {{ if .title }}
       <div class="mw6 bg-fix-primary relative mb1 intro1">
         <h1 class="f2 b di lh-title mb1 white mw6">
           {{.title}}
         </h1>
       </div>
-      {{ end }}
-      <div class="mw6 bg-fix-primary relative intro1">
+      {{ end }} -->
+      <div class="mw6 mw7-ns bg-fix-primary relative intro1">
         {{ if .subtitle }}
-        <p class="f4 di lh-title mb3 white mw6">
+        <div class="f3 f2-ns di lh-title mb3 white">
           {{.subtitle}}
-        </p>
+        </div>
         <br /><hr style="background-color:white;" />
         {{ end }}
         {{ if .cta }}

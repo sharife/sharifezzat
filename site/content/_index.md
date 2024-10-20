@@ -1,7 +1,11 @@
 ---
 title: "Sharif Ezzat"
 subtitle: Digital Design for Science and Humanity
-image: /img/buck_collab.jpg
+slideshow:
+  - image: /img/bg-05.jpg
+  - image: /img/bg-02.png
+  - image: /img/bg-01.jpg
+  - image: /img/bg-04.jpg
 cta: FEATURED PROJECTS
 link: /post
 ---

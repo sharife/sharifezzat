@@ -8,6 +8,6 @@ contact_entries:
     text: "contact me below."
 ---
 
-### **Ah, San Francisco**  
+## Ah, San Francisco 
 
-I take inspiration from the city and its opportunities. If you're interested in my work, you can reach me using the form below, or visit [Receptor Studio](https://receptorstudio.com)</a>.
+I take inspiration from the city, its beauty, and its opportunities. If you're interested in my work, you can visit my company [Vital Mind Media](https://vitalmindmedia.com)</a> or send me a message below.

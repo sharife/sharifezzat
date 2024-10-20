@@ -1,0 +1,178 @@
+::selection {
+  background-color: var(--highlight);
+}
+
+
+hr {
+  height:2px;
+  color:black;
+  background-color:black;
+  border:none;
+}
+
+h1 {
+  /*background: var(--black);*/
+  line-height: -0.5rem;
+}
+
+.intro1, .intro2, .intro-page,.intro-body,.header-image,.header-image-sm {opacity: 0;}
+
+.nav {
+  margin-top:-5rem;
+}
+
+.intro1 {
+  left: -10rem;
+  transform: translate(0);
+  transition: transform 1000ms ease-out;
+  animation-delay: 2s;
+}
+
+.intro2 {
+  left: -2rem;
+  transform: translate(0);
+  transition: transform 1000ms ease-out;
+}
+
+.hideme {
+  opacity: 0;
+  padding-top: 10px;
+}
+
+/* Used in the navbar */
+.divider {
+  box-shadow: inset 0 -4px 0 var(--black);
+  /* Link hover states */
+  & a {
+    transition: var(--hover-transition);
+  }
+  & ul a:hover, & ul a:focus {
+    box-shadow: inset 0 -4px 0 var(--primary);
+  }
+}
+
+
+.nav-r {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-r {
+    display: inline;
+  }
+  .nav-p {
+    display: none;
+  }
+  #nav-master {
+    align-items: center;
+  }
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111112;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+  padding: 10px 10px 10px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  min-width: 230px;
+  /*white-space: nowrap;*/
+}
+
+.sidenav hr {
+  background-color: var(--grey-4);
+}
+
+.sidenav .active {
+  box-shadow: inset -4px 0 0 var(--primary);
+  color: white;
+}
+
+.sidenav a:hover {
+  color: var(--primary);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+  margin-left: 220px;
+}
+
+.submenu-r {
+  margin-left: 16px;
+
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 14px;}
+}
+
+
+
+.image-container {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  img {
+    position: absolute;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    animation-name: multiple-image-crossfade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 16s;
+    &:nth-of-type(1) {
+      animation-delay: 12s;
+    }
+    &:nth-of-type(2) {
+      animation-delay: 8s;
+    }
+    &:nth-of-type(3) {
+      animation-delay: 4s;
+    }
+    &:nth-of-type(4) {
+      animation-delay: 0;
+    }
+  }
+}
+
+@keyframes multiple-image-crossfade {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
