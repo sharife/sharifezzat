@@ -6,6 +6,18 @@ const AssetsPlugin = require("assets-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  resolve: {
+      fallback: {
+        "fs": false,
+        "tls": false,
+        "net": false,
+        "path": false,
+        "zlib": false,
+        "http": false,
+        "https": false,
+        "stream": false, 
+      } 
+    },
   entry: {
     main: path.join(__dirname, "src", "index.js"),
     cms: path.join(__dirname, "src", "js", "cms.js"),
@@ -33,7 +45,7 @@ module.exports = {
       },
       {
         test: /\.(sa|sc|c)ss$/,
-        exclude: /node_modules/,
+        //exclude: /node_modules/,
         use: [
           "style-loader", 
           {
